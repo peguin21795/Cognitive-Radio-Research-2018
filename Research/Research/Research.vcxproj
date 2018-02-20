@@ -93,6 +93,7 @@
     <Link>
       <AdditionalDependencies>bladeRF.lib;C:\Program Files (x86)\pthreads-win32\lib\x64\pthreadVC2.lib;D:\libusb-1.0.21\MS64\dll\libusb-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:\bladeRF\host\build\output\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
