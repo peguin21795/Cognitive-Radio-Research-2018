@@ -9,9 +9,9 @@ Once that has been done and you can successfully build bladeRF.sln, you must fol
 2. In C/C++ >> General, add ...\bladeRF\host\libraries\libbladeRF to Additional Include Directories
 3. In Linker >> General, add ...\bladeRF\host\build\output\Debug to Additional Library Directories. It contains bladeRF.lib which is needed to successfully compile your program. Also be sure to add bladeRF.lib, bladeRF.dll, pthreadVC2.dll, and libusb-1.0.dll to your project!
 4. Lastly, in Linker >> Input, add the following libraries to Additional Dependencies:
-  * bladeRF.lib
-  * C:\Program Files (x86)\pthreads-win32\lib\x64\pthreadVC2.lib
-  * D:\libusb-1.0.21\MS64\dll\libusb-1.0.lib
+   * bladeRF.lib
+   * C:\Program Files (x86)\pthreads-win32\lib\x64\pthreadVC2.lib
+   * D:\libusb-1.0.21\MS64\dll\libusb-1.0.lib
 
 **Verification** <br />
 You can verify that your code works by copying this simple C++ code. 
