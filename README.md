@@ -11,7 +11,7 @@ Once that has been done and you can successfully build bladeRF.sln, you must fol
 4. Lastly, in Linker >> Input, add the following libraries to Additional Dependencies:
    * bladeRF.lib
    * C:\Program Files (x86)\pthreads-win32\lib\x64\pthreadVC2.lib
-   * D:\libusb-1.0.21\MS64\dll\libusb-1.0.lib
+   * ...\libusb-1.0.21\MS64\dll\libusb-1.0.lib
 
 **Verification** <br />
 You can verify that your code works by copying this simple C++ code. 
